@@ -16,6 +16,10 @@
         <servlet-name>Validaradmin</servlet-name>
         <servlet-class>Controlador.Validaradmin</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Modulos</servlet-name>
+        <servlet-class>Controlador.Modulos</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Registro</servlet-name>
         <url-pattern>/Registro</url-pattern>
@@ -31,6 +35,10 @@
     <servlet-mapping>
         <servlet-name>Validaradmin</servlet-name>
         <url-pattern>/Validaradmin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Modulos</servlet-name>
+        <url-pattern>/Modulos</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

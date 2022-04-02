@@ -12,6 +12,18 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Escoge la sede en la que quieres ingresar</h1>
+        <form action="Modulos" method="POST">
+            <select  name="Centro">
+                <option>Las Americas</option>
+                <option>Embajador</option>
+                <option>Gran Estacion</option>
+                <option>Plaza Central</option>
+                <option>Unicentro</option>
+                <option>Titan</option>
+            </select>
+            <input type="submit" name="accion" value="escogecc">
+        </form>
+
     </body>
 </html>

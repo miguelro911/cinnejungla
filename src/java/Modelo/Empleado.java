@@ -5,6 +5,9 @@
  */
 package Modelo;
 
+
+import java.sql.Date;
+
 /**
  *
  * @author Miguel
@@ -13,6 +16,18 @@ public class Empleado {
     String idEmpleado;
     String Nombre,rol,Multiplex;
     int cedula,telefono,salario;
+    Date fecha;
+    
+    public Empleado(String idEmpleado, String Nombre,String rol,String Multiplex, int cedula,int telefono,int salario, Date fecha){
+        this.idEmpleado = idEmpleado;
+        this.Multiplex = Multiplex;
+        this.cedula= cedula;
+        this.telefono=telefono;
+        this.rol=rol;
+        this.salario = salario;
+        this.Nombre = Nombre;
+        this.fecha = fecha;
+    }
 
     public String getIdEmpleado() {
         return idEmpleado;

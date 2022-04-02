@@ -5,6 +5,8 @@
  */
 package Modelo;
 
+import java.util.List;
+
 /**
  *
  * @author Miguel
@@ -13,4 +15,5 @@ public interface MultiplexDAO {
     
     Empleado consultaEmps();
     Funcion consulFunc();
+    List<Empleado> consultaremo();
 }
